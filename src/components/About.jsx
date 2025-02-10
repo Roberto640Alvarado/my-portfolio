@@ -1,10 +1,10 @@
-import perfil from "../assets/perfil.jpg"; // Si la imagen está en src/assets, usa esto.
+import perfil from "../assets/perfil.jpg";
 
 const About = () => {
   return (
-    <section className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-16 gap-10">
+    <section className="w-full min-h-fit flex flex-col md:flex-row items-center justify-center px-6 py-16 gap-10 bg-gray-900">
       <img
-        src={perfil} // Si está en src/assets
+        src={perfil}
         alt="Foto de perfil"
         className="w-40 h-40 md:w-60 md:h-60 rounded-full shadow-lg"
       />

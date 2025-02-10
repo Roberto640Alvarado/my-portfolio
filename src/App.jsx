@@ -5,11 +5,12 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <div className="bg-gray-900 text-white">
+      <div className='bg-gray-900'>
         <Navbar />
         <section id="hero">
           <Hero />
@@ -26,6 +27,7 @@ function App() {
         <section id="contact">
           <Contact />
         </section>
+        <Footer />
       </div>
     </>
   );

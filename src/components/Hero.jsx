@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Typed from "typed.js";
+import perfil from "../assets/perfil.jpg";
 
 const Hero = () => {
   useEffect(() => {
@@ -35,6 +36,11 @@ const Hero = () => {
 
   return (
     <section className="w-full min-h-screen flex flex-col items-center justify-center text-center bg-gray-900 text-white px-6 py-16">
+      <img
+              src={perfil} 
+              alt="Foto de perfil"
+              className="w-40 h-40 md:w-60 md:h-60 rounded-full shadow-lg"
+            />
       <h1 className="text-5xl md:text-6xl font-bold">¡Hola! Soy Roberto Alvarado</h1>
       <p className="text-3xl md:text-4xl mt-4 max-w-2xl">
         Desarrollador <span className="typed"></span>
