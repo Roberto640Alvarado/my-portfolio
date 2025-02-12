@@ -21,7 +21,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full fixed top-0 bg-black text-white shadow-md z-50">
+    <nav className="w-full fixed top-0 bg-[#111827] text-white shadow-md z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         <h1 className="text-2xl font-bold">Roberto Alvarado</h1>
 

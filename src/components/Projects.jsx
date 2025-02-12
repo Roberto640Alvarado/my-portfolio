@@ -1,5 +1,6 @@
 import React from "react";
 import portafolioImage from "../assets/projects/portafolio.png";
+import boxfulImage from "../assets/projects/boxful.png";
 import templateImage from "../assets/projects/template.jpg";
 
 const projects = [
@@ -7,19 +8,22 @@ const projects = [
     title: "Portafolio",
     description: "Un portafolio personal desarrollado con React y Tailwind CSS. Muestra mis habilidades como desarrollador web.",
     image: portafolioImage,
-    technologies: ["React", "Tailwind"]
+    technologies: ["React", "Tailwind"],
+    url: "https://robertoalvarado-dev.netlify.app/"
   },
   {
-    title: "Template",
-    description: "Plantilla de proyecto adaptable para diferentes necesidades, utilizando tecnologías modernas.",
-    image: templateImage, 
-    technologies: ["React", "Tailwind", "Node.js"]
+    title: "Boxfull",
+    description: "Proyecto full-stack que permite a los usuarios gestionar y seguir sus órdenes y paquetes, combinando el desarrollo frontend y backend para una experiencia completa.",
+    image: boxfulImage, 
+    technologies: ["React", "NestJS", "MongoDB","CSS"],
+    url: "https://boxful.netlify.app/"
   },
   {
     title: "Template2",
-    description: "Plantilla de proyecto adaptable para diferentes necesidades, utilizando tecnologías modernas.",
+    description: "Se estará agregando más proyectos en el futuro. Se está buscando opciones para alojar algunos proyectos en la nube.",
     image: templateImage, 
-    technologies: ["React", "Tailwind", "Node.js"]
+    technologies: ["React", "Tailwind", "Node.js"],
+    url: "https://robertoalvarado-dev.netlify.app/"
   },
 ];
 
@@ -31,7 +35,8 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="group relative p-4 bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+            className="group relative p-4 bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300 cursor-pointer"
+            onClick={() => window.open(project.url, "_blank")}
           >
             <img
               src={project.image}

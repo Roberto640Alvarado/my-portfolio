@@ -11,6 +11,7 @@ import htmlIcon from "../assets/icons/html5.svg";
 import cssIcon from "../assets/icons/css.svg";
 import csharpIcon from "../assets/icons/csharp.svg";
 import pythonIcon from "../assets/icons/python.svg";
+import visualbasic from "../assets/icons/visualbasic.jpg";
 
 import sqlServerIcon from "../assets/icons/sql-server.svg";
 import mongoIcon from "../assets/icons/mongodb.svg";
@@ -39,6 +40,7 @@ const skills = [
   { name: "CSS3", icon: cssIcon },
   { name: "C#", icon: csharpIcon },
   { name: "Python", icon: pythonIcon },
+  { name: "Visual Basic", icon: visualbasic },
 ];
 
 const databases = [
