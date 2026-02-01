@@ -19,6 +19,7 @@ import sqlServerIcon from "../assets/icons/sql-server.svg";
 import mongoIcon from "../assets/icons/mongodb.svg";
 import postgresIcon from "../assets/icons/postgresql.svg";
 import mysqlIcon from "../assets/icons/mysql.svg";
+import oracleIcon from "../assets/icons/oracle.svg"
 
 import vsIcon from "../assets/icons/visual-studio.svg";
 import vscodeIcon from "../assets/icons/vscode.svg";
@@ -28,10 +29,13 @@ import eclipseIcon from "../assets/icons/eclipse.svg";
 import githubIcon from "../assets/icons/github.svg";
 import gitlabIcon from "../assets/icons/gitlab.svg";
 import slackIcon from "../assets/icons/slack.svg";
+import insomniaIcon from "../assets/icons/insomnia.svg"
+import jiraIcon from "../assets/icons/jira.png"
+import intellijIcon from "../assets/icons/intellij.svg"
 
 const skills = [
   { name: "React", icon: reactIcon },
-  { name: "Angulr", icon: angularIcon },
+  { name: "Angular", icon: angularIcon },
   { name: "Node.js", icon: nodeIcon },
   { name: "Next.js", icon: nextIcon },
   { name: "NestJS", icon: nestIcon },
@@ -52,17 +56,21 @@ const databases = [
   { name: "MongoDB", icon: mongoIcon },
   { name: "PostgreSQL", icon: postgresIcon },
   { name: "MySQL", icon: mysqlIcon },
+  { name: "Oracle", icon: oracleIcon },
 ];
 
 const tools = [
   { name: "Visual Studio", icon: vsIcon },
   { name: "VS Code", icon: vscodeIcon },
   { name: "Postman", icon: postmanIcon },
+  { name: "Insomnia", icon: insomniaIcon },
+  { name: "Jira", icon: jiraIcon },
   { name: "Docker", icon: dockerIcon },
   { name: "Eclipse", icon: eclipseIcon },
   { name: "GitHub", icon: githubIcon },
   { name: "GitLab", icon: gitlabIcon },
   { name: "Slack", icon: slackIcon },
+  { name: "IntelliJ IDEA", icon: intellijIcon },
 ];
 
 const SkillSection = ({ title, items }) => (

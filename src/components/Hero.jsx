@@ -29,7 +29,7 @@ const Hero = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/uc?export=download&id=1ohkzHjCedrAgGmEmHRhyFw1sZ9fcY6R5"; 
+    link.href = "https://drive.google.com/uc?export=download&id=1nf3EBBQ1DvSq2XVApu3bqWljk1IJmknS"; 
     link.download = "CV_Roberto_Alvarado.pdf"; 
     link.click();
   };

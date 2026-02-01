@@ -97,7 +97,7 @@ const Contact = () => {
 
           <div className="flex items-center gap-3">
             <FaPhone className="text-green-500 text-2xl" />
-            <span className="text-gray-300">70248234 - 68529109</span>
+            <span className="text-gray-300">70248234</span>
           </div>
 
           <div className="flex items-center gap-3">
