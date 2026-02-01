@@ -12,6 +12,8 @@ import cssIcon from "../assets/icons/css.svg";
 import csharpIcon from "../assets/icons/csharp.svg";
 import pythonIcon from "../assets/icons/python.svg";
 import visualbasic from "../assets/icons/visualbasic.jpg";
+import angularIcon from "../assets/icons/angular.svg"
+import tailwindIcon from "../assets/icons/tailwind.svg"
 
 import sqlServerIcon from "../assets/icons/sql-server.svg";
 import mongoIcon from "../assets/icons/mongodb.svg";
@@ -29,6 +31,7 @@ import slackIcon from "../assets/icons/slack.svg";
 
 const skills = [
   { name: "React", icon: reactIcon },
+  { name: "Angulr", icon: angularIcon },
   { name: "Node.js", icon: nodeIcon },
   { name: "Next.js", icon: nextIcon },
   { name: "NestJS", icon: nestIcon },
@@ -38,6 +41,7 @@ const skills = [
   { name: "TypeScript", icon: tsIcon },
   { name: "HTML5", icon: htmlIcon },
   { name: "CSS3", icon: cssIcon },
+  { name: "Tailwind", icon: tailwindIcon },
   { name: "C#", icon: csharpIcon },
   { name: "Python", icon: pythonIcon },
   { name: "Visual Basic", icon: visualbasic },

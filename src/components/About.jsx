@@ -11,11 +11,16 @@ const About = () => {
       <div className="text-center md:text-left max-w-3xl">
         <h2 className="text-4xl font-bold mb-4 text-blue-500">Acerca de mí</h2>
         <p className="text-lg text-gray-300">
-          Soy <strong>egresado de Ingenieria Informática</strong>, con experiencia en el <strong>desarrollo web</strong> tanto en 
-          <strong> back-end</strong> como en <strong> front-end</strong>. Me considero una persona 
-          autodidacta, proactiva y responsable, con habilidades de trabajo en equipo y 
-          capacidad para colaborar y apoyar a otros de la mejor manera posible.
+          Soy <strong>Ingeniero Informático</strong> y desarrollador <strong>Full Stack</strong>,
+          con experiencia en el desarrollo de aplicaciones web completas, desde la creación de
+          <strong> APIs REST</strong> y lógica de negocio en el <strong>back-end</strong>, hasta la
+          implementación de interfaces funcionales y responsivas en el <strong>front-end</strong>.
+          <br/><br/>
+          Trabajo aplicando buenas prácticas de desarrollo, principios <strong>SOLID</strong> y
+          metodologías <strong>ágiles (Scrum)</strong>, enfocado en construir soluciones
+          <strong> escalables, seguras y mantenibles</strong>.
         </p>
+
       </div>
     </section>
   );
